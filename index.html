@@ -1,269 +1,643 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antique Bakery Cafe HTML Template by Tooplate</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
-    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/tailwind.css">
-    <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+ <html>
+    <head>
+        <style>
+#nav
+{
+    width: 100%;
+height: 100px;
+background-color: rgb(33, 33, 33);
+position: fixed;
+opacity: 90%;
+color: aliceblue;
+display: flex;
+justify-content: right;
+margin: -10px;
+margin-left: 2px;
+
+
+
+
+}
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(33, 33, 33);;
+}
+li{
+    float: left;
+    float: left;
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(199, 206, 201);
+    padding: 40px 30px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
     
-<!--
+}
+#e1
+{
+    
+    height: 1264px;
+    background-color: aqua;
+    background-image: url('img/antique-cafe-bg-01.jpg');
+    margin: auto;
+    background-size: cover;
+    position: relative;
+    
+}
+#e2
+{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(16, 16, 16);
+     position: absolute;
+     left: 600px;
+     top: 150px;
+     text-align: center;
+     font-size: 50px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: aliceblue;
+     opacity: 90%;
+     padding-top: 70px;
+     font-weight: bold;
+     border-radius: 10px;
+     
+     
+}
+#ee2
+{
+    font-size: medium;
+    
+}
+#e3
+{
+    width: 360px;
+    height: 550px;
+    background-color: rgb(16, 16, 16);
+    position: absolute;
+    left: 600px;
+    top: 450px;
+    color: aliceblue;
+    
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 50px;
+    opacity: 90%;
+    
+    
+    
+    
+}
+span{
+    color: rgb(255, 236, 205);
+}
+#e4
+{
+    width: 250px;
+    height: 70px;
+    
+    background-color: rgb(16, 16, 16);
+    position: absolute;
+    left: 650px;
+    top: 1100px;
+    border-radius: 10px;
+    opacity: 90%;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#c1
+{
+    
+    height: 1264px;
+    background-color: aqua;
+    background-image: url('img/antique-cafe-bg-02.jpg');
+    margin: auto;
+    background-size: cover;
+    position: relative;
+    
+}
+#d1
+{
+    width: 400px;
+    height: 600px;
+    background-color: chocolate ;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    border-radius: 60px;
+    
+}
+#d2
+{
+    width: 400px;
+    height: 600px;
+    background-color: chocolate;
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    border-radius: 60px;
+    
+}
+#d3
+{
+    width: 550px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: orangered;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: 1px dashed;
+    font-weight: bold;
+    
+    
+}
+#f1
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    margin-top: 30px;
+    left: 50px;
+    
+    
+}
+#f2
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 149, 0);
+    position: relative;
+    margin-top: 30px;
+    left: 50px;
+    
+    
+    
+    
+}
+#f3
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 30px;
+    position: relative;
+    left: 50px;
+    
+}
+#f4
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 149, 0);
+    margin-top: 30px;
+    position: relative;
+    left: 50px;
+    
+}
+#f5
+{
+    width: 100px;
+    height: 100px;
+    
+    float: right;
+    margin-top: -500px;
+    position: relative;
+    right: 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#f6
+{
+    width: 100px;
+    height: 100px;
+    
+    float: right;
+    margin-top: -370px;
+    position: relative;
+    right: 130px;
+}
+#f7
+{
+    width: 100px;
+    height: 100px;
+    
+    float: right;
+    margin-top: -240px;
+    position: relative;
+    right: 130px;
+}
+#f8
+{
+    width: 100px;
+    height: 100px;
+    
+    float: right;
+    margin-top: -120px;
+    position: relative;
+    right: 130px;
+}
+img
+{
+    width: 100px;
+    height: 100px;
+    
 
-Tooplate 2126 Antique Cafe
+}
+#g1
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 130px;
+    
+    
+}
+#g2
+{
+    width: 100px;
+    height: 100px;
+    
+    position: relative;
+    margin-top: 30px;
+    left: 130px;
+    
+    
+    
+    
+}
+#g3
+{
+    width: 100px;
+    height: 100px;
+    
+    margin-top: 30px;
+    position: relative;
+    left: 130px;
+    
+}
+#g4
+{
+    width: 100px;
+    height: 100px;
+    
+    margin-top: 30px;
+    position: relative;
+    left: 130px;
+    
+}
+#g5
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    float: right;
+    margin-top: -490px;
+    position: relative;
+    right: 50px;
+}
+#g6
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 149, 0);
+    float: right;
+    margin-top: -360px;
+    position: relative;
+    right: 50px;
+}
+#g7
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    float: right;
+    margin-top: -230px;
+    position: relative;
+    right: 50px;
+}
+#g8
+{
+    width: 100px;
+    height: 100px; 
+    float: right;
+    position: relative;
+    margin-top: -100px;
+    right: 50px;
+}
+#h1
+{
+    
+    height: 1264px;
+    background-color: rgb(255, 149, 0);
+    background-image: url('img/antique-cafe-bg-03.jpg');
+    background-size: cover;
+    position: relative;
+    margin-top: -25px;
+    
+    
+}
+#hh1
+{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(232, 234, 234);
+    position: relative;
+    left: 900px;
+    top: 300px;
+    text-align: center;
+    
+}
+h1
+{
+    color: rgb(0, 183, 255);
+}
+#foot
+{
+    
+    height: 1264px;
+    background-color: rgb(255, 149, 0);
+    background-image: url('img/antique-cafe-bg-04.jpg');
+    background-size: cover;
+    position: relative;
+    margin-top: -60px;
+    
+    
+}
+#z1
+{
+    width: 500px;
+    height: 600;
+    background-color:  rgb(232, 234, 234);
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    text-align: center;
+    border-radius: 15px;
+}
+#z2
+{
+    width: 500px;
+    height: 600;
+    background-color: rgb(10, 10, 11);
+    position: absolute;
+    left: 900px;
+    top: 400px;
+    border-radius: 15px;
+    opacity: 70%;
+    color: blueviolet;
 
-https://www.tooplate.com/view/2126-antique-cafe
+}
+#z12
+{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(42, 128, 165);
+    position: absolute;
+    top: 430px;
+    left: 120px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: x-large;
+    text-decoration: none;
+    
 
--->
-</head>
-<body>    
-    <!-- Intro -->
-    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-01.jpg">
-        <nav id="tm-nav" class="fixed w-full">
-            <div class="tm-container mx-auto px-2 md:py-6 text-right">
-                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
-                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
-                    <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Intro</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-gold py-1 md:py-3 px-4">Menu</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">About</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#contact" class="tm-text-gold py-1 md:py-3 px-4">Contact</a></li>
+}
+
+input[type="text"]
+{
+    width: 350px;
+    padding: 12px 8px;
+    margin: 20px 0;
+    margin-top: 100px;
+    margin-left: 40px;
+    display: inline-block;
+    border: 2px solid rgb(233, 223, 223);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    background-color:  rgb(10, 10, 11);
+    font-size: x-large;
+    opacity: 70%;
+    color:beige;
+}
+
+input[type="email"]
+{
+    width: 350px;
+    padding: 12px 8px;
+    margin: 8px 0;
+    margin-left: 40px;
+    display: inline-block;
+    border: 2px solid rgb(239, 238, 238);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-top: hidden;
+    background-color:  rgb(16, 16, 16);
+    border-left: hidden;
+    border-right: hidden;
+    font-size: x-large;
+    opacity: 70%;
+    color: white;
+}
+textarea
+{
+    width: 350px;
+    padding: 10px 8px;
+    margin: 8px 0;
+    margin-left: 40px;
+    display: inline-block;
+    border: 2px solid rgb(235, 225, 225);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    background-color:  rgb(10, 10, 11);
+    margin-top: 70px;
+    font-size: 20px;
+    color: rgb(116, 13, 13);
+    
+
+}
+input[type="submit"]
+{
+    margin-left: 290px;
+    margin-top: 20px;
+    background-color:  rgb(42, 42, 43);
+    color: white;
+    font-size: 20px;
+    
+    display: inline-block;
+}
+#zy
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+#n1
+{
+    padding-top: 1200px;
+    padding-left: 200px;
+    color: aliceblue;
+    font-size: x-large;
+}
+::placeholder
+{
+    color: white;
+}
+
+   </style>
+    </head>
+    <body>
+        <div id="e1">
+            <div id="nav">
+                <ul>
+                    <li><a href="#e1">Intro</a></li>
+                    <li><a href="#c1">Menu</a></li>
+                    <li><a href="#h1">About</a></li>
+                    <li><a href="#foot">Contact</a></li>
                 </ul>
-            </div>            
-        </nav>
-        <div class="container mx-auto px-2 tm-intro-width">
-            <div class="sm:pb-60 sm:pt-48 py-20">
-                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
-                    <h1 class="text-white text-5xl tm-logo-font mb-5">Starbucks Cafe</h1>
-                    <p class="tm-text-gold tm-text-2xl">Your daily mind booster</p>
-                </div>    
-                <div class="bg-black bg-opacity-70 p-10 mb-5">
-                    <p class="text-white leading-8 text-sm font-light">
-                        Adding Moments of Perfect Sip<br>
-                        a life full of Coffee Moments<br>
-                        Awake Every Senses<br>
-                        Excellence taste in Coffee<br>
-                        Ride your Best life moments<br>
-                        Shine the Morning<br>
-                        Enjoy the Mornings<br>
-                        Bringing Joy of Friendships<br>
-                        A new Moments of Imagine<br>
-                        Coffee with a New Passion<br>
-                        <br>
-                        <br>
-                    	If you have any question, please <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">send us a message</a>. </p>
-                </div>
-                <div class="text-center">
-                    <div class="inline-block">
-                        <a href="#menu" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
-                            <i class="fas fa-coffee mr-3"></i>
-                            <span>Let's explore...</span>                        
-                        </a>
-                    </div>                    
-                </div>                
             </div>
-        </div>        
-    </div>
-    <!-- Cafe Menu -->
-    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-02.jpg">
-        <div class="container mx-auto tm-container py-24 sm:py-48">
-            <div class="text-center mb-16">
-                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Special Starbucks Menu</h2>
-            </div>            
-            <div class="flex flex-col lg:flex-row justify-around items-center">
-                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-1.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Medium Rs. 320</div>
-                            <div class="text-white text-md sm:text-lg font-light">Large Rs. 640</div>
-                        </div>                    
-                    </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Small Rs. 240 </div>
-                            <div class="text-white text-md sm:text-lg font-light">Large Rs. 560</div>
-                        </div>                    
-                    </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-3.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte </h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Medium Rs. 540</div>
-                            <div class="text-white text-md sm:text-lg font-light">Large  Rs.750</div>
-                        </div>                    
-                    </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-4.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
-                            <div class="text-white text-md sm:text-lg font-light">Size Medium Rs.450 . Large Rs. 670</div>
-                        </div>                    
-                    </div>
-                </div>
-                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
-                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
-                        <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Cappuccino</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Small Rs. 340</div>
-                            <div class="text-white text-md sm:text-lg font-light">Large Rs. 680</div>
-                        </div>
-                        <img src="img/menu-item-5.jpg" alt="Image" class="rounded-md">                   
-                    </div>
-                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
-                        <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Small Rs. 456</div>
-                            <div class="text-white text-md sm:text-lg font-light">Large Rs. 670</div>
-                        </div>
-                        <img src="img/menu-item-6.jpg" alt="Image" class="rounded-md">                    
-                    </div>
-                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
-                        <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">Small Rs. 120</div>
-                            <div class="text-white text-md sm:text-lg font-light">Large Rs. 320</div>
-                        </div>   
-                        <img src="img/menu-item-7.jpg" alt="Image" class="rounded-md">                 
-                    </div>
-                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
-                        <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Iced Espresso</h3>
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
-                            <div class="text-white text-md sm:text-lg font-light">Small Rs.230 . Large Rs.450</div>
-                        </div> 
-                        <img src="img/menu-item-8.jpg" alt="Image" class="rounded-md">                   
-                    </div>
-                </div>
+           
+            <div id="e2">Starbucks Cafe
+                <h2 id="ee2">your daily mind booster</h2>
             </div>
-        </div>        
-    </div>
-    <div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-03.jpg">
-        <div class="container mx-auto tm-container py-24 sm:py-48">
-            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
-                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
-                    <h2 class="mb-6 tm-text-green text-4xl font-medium">About our cafe</h2>
-                    <p class="mb-6 text-base leading-8">
-                        “To capture the character of our community, boiling down its stocks, foraging its plants, and showcasing its produce; all in an attempt to capture a time and a space in the confines of a plate, but more often in a series of plates.”
-                  </p>
-                    <p class="text-base leading-8">
-                        If you wish to <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">support us</a>, please make a little donation via PayPal. That would be
-                    very helpful. Another way is to tell your friends about Starbucks website. Thank you. </p>
-                </div>
-                <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
-                    <i class="far fa-comments mr-4"></i>
-                    Contact
-                </a>
-            </div>           
-        </div>        
-    </div>
-    <div id="contact" class="parallax-window relative" data-parallax="scroll" data-image-src="img/antique-cafe-bg-04.jpg">
-        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
-            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
-                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
-                    <h2 class="text-3xl mb-6 tm-text-green">Contact Us</h2>
-                    <p class="mb-6 text-lg leading-8">
-                        Address : 100 Saket, Old Palasia 452001<br>
-
-                       City Or Area : Indore<br>
-
-                       State : Madhya Pradesh<br>
-
-                      Phone : 0731 4285050<br>
-
-                      Cuisines : Fast Food<br>
-
-                     Landmark : Old Palasia  <br>
-                    </p>
-                    <p class="mb-10 text-lg">
-                        <span class="block mb-2">Tel: <a href="tel:0100200340" class="hover:text-yellow-600 transition">010-020-0340</a></span>
-                        <span class="block">Email: <a href="mailto:info@company.com" class="hover:text-yellow-600 transition">info@company.com</a></span>                        
-                    </p>
-                    <div class="text-center">
-                        <a href="https://www.google.com/maps" class="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-green">
-                            <i class="fas fa-map-marked-alt mr-8"></i>
-                            Open Maps
-                        </a>
-                    </div>                    
-                </div>
-                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
-                    <form action="" method="POST" class="text-lg">
-                        <input type="text" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Name" required="" />
-                        <input type="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required="" />
-                        <textarea rows="6" name="message" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Message..." required=""></textarea>
-                        <div class="text-right">
-                            <button type="submit" class="text-white hover:text-yellow-500 transition">Send it</button>
-                        </div>                        
-                      </form>
-                </div>
+            <div id="e3">
+                <h3>Adding Moments of Perfect Sip</h3>
+                <h3>a life full of Coffee Moments</h3>
+                <h3> Awake Every Senses</h3>
+                <h3>Excellence taste in Coffee</h3>
+                <h3>Ride your Best life moments</h3>
+                <h3>Shine the Morning</h3>
+                <h3>Enjoy the Mornings</h3>
+                <h3>Bringing Joy of Friendships</h3>
+                <h3>A new Moments of Imagine</h3>
+                <h3>Coffee with a New Passion</h3>
+                <br><br>
+                 <h3>if you have any question.<span>please send us a </span></h3>
+                 <h3><span>messsage</span></h3>
             </div>
-            <footer class="absolute bottom-0 left-0 w-full">
-                <div class="text-white container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
-                    <span>Copyright &copy; 2021 Starbucks Cafe. All rights reserved.</span>
-                    <span class="mt-5 md:mt-0">Design: <a href="https://www.tooplate.com" target="_parent">Tooplate</a></span>
-                </div>                
-            </footer>
-        </div>        
-    </div>    
+            <div id="e4"><h2>let`s explore</h2></div>
+        </div>
+        
+        <div id="c1">
+<div id="d1">
+    <div id="f1"><img src="img/menu-item-1.jpg" alt=""></div>
+    <div id="f2"><img src="img/menu-item-2.jpg" alt=""></div>
+    <div id="f3"><img src="img/menu-item-3.jpg" alt=""></div>
+    <div id="f4"><img src="img/menu-item-4.jpg" alt=""></div>
+    <div id="f5">
+       
+        <h4>HotCappuccino
+            Medium Rs. 320
+            Large Rs. 640
+        </h4>
+    
+    </div>
+    <div id="f6"><h4>Hot Americano
+        Small Rs. 240
+        Large Rs. 560</h4>
+                </div>
+    <div id="f7">
+        <h4>
+            Hot Latte
+Medium Rs. 540
+Large Rs.750
+        </h4>
+    </div>
+    <div id="f8">
+       <h4> Hot Espresso
+        Hot Chocolate
+        Size Medium Rs.450 . Large Rs. 670</h4>
+    </div>
+</div>
+<div id="d2">
+    <div id="g1"><h4>Iced Cappuccino
+        Small Rs. 340
+        Large Rs. 680</h4></div>
+    <div id="g2"><h4>
+        Iced Americano
+        Small Rs. 456
+        Large Rs. 670
+    </h4></div>
+    <div id="g3"><h4>
+        ced Milky Latte
+        Small Rs. 120
+        Large Rs. 320
+    </h4></div>
+    <div id="g4"><h4>Iced Espresso
+        Iced Mocha
+        Small Rs.230 . Large Rs.450</h4></div>
+    <div id="g5"><img src="img/menu-item-5.jpg" alt=""></div>
+    <div id="g6"><img src="img/menu-item-6.jpg" alt=""></div>
+    <div id="g7"><img src="img/menu-item-7.jpg" alt=""></div>
+    <div id="g8"><img src="img/menu-item-8.jpg" alt=""></div>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script>
+</div>
+<div id="d3">Special Starbucks Menu</div>
+        </div>
+        <div id="h1">
+            <div id="hh1">
+                <h1>About our cafe</h1>
+<h3> capture the character of our community, boiling down </h3>
+<h3> “Toits stocks, foraging its plants, and showcasing its </h3>
+<h3> produce; all in an attempt to capture a time and a space </h3>
+<h3> in the confines of a plate, but more often in a series of plates.”</h3>
+<h3> If you wish to support us, please make a little donation via</h3> 
+<h3> PayPal. That would be very helpful. Another way is to tell </h3>
+<h3> your friends about Starbucks website thankyou </h3>
+            </div>
+        </div>
+        <div id="foot">
+             <div id="z1">
+               <h1>Contact Us</h1> 
+   <h3> Address : 100 Saket, Old Palasia 452001</h3>
+   <h3>  City Or Area : Indore </h3>
+   <h3>  State : Madhya Pradesh </h3>
+   <h3>  Phone : 0731 4285050</h3>
+   <h3>  Cuisines : Fast Food</h3>
+   <h3>  Landmark : Old Palasia</h3>
 
-        function checkAndShowHideMenu() {
-            if(window.innerWidth < 768) {
-                $('#tm-nav ul').addClass('hidden');                
-            } else {
-                $('#tm-nav ul').removeClass('hidden');
-            }
-        }
-
-        $(function(){
-            var tmNav = $('#tm-nav');
-            tmNav.singlePageNav();
-
-            checkAndShowHideMenu();
-            window.addEventListener('resize', checkAndShowHideMenu);
-
-            $('#menu-toggle').click(function(){
-                $('#tm-nav ul').toggleClass('hidden');
-            });
-
-            $('#tm-nav ul li').click(function(){
-                if(window.innerWidth < 768) {
-                    $('#tm-nav ul').addClass('hidden');
-                }                
-            });
-
-            $(document).scroll(function() {
-                var distanceFromTop = $(document).scrollTop();
-
-                if(distanceFromTop > 100) {
-                    tmNav.addClass('scroll');
-                } else {
-                    tmNav.removeClass('scroll');
-                }
-            });
+<h3>Tel: 010-020-0340</h3>
+<h3>Email: info@company.com</h3>
+<div id="z12"><h4><a id="zy" href="https://maps.google.com/">Open Maps</a></h4></div>
+             </div>
+            <div id="z2">
+                <form action="">
+                    
+                    <input type="text"  placeholder="Name">
+                    
+                    <input type="email"  placeholder="Email">
+                    
+                    <textarea name="message" rows="8" cols="20" placeholder="Message" id=""></textarea>
+                    
+                    <input type="submit" value="Send it">
+                </form>
+               
+            </div>
+            <h6 id="n1">Copyright © 2021 Starbucks Cafe. All rights reserved.</h6>
             
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
+        </div>
+    </body>
+    </html>
 
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        });
-    </script>
-</body>
-</html>
+
+    
+    
